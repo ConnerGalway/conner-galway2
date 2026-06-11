@@ -53,7 +53,9 @@ export default function App() {
 
           {/* Desktop CTA */}
           <a
-            href="#"
+            href="https://calendly.com/conner-galway/introductory-call-conner?month=2026-06"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden items-center gap-2 border border-white/30 px-6 py-3 font-inter text-xs uppercase tracking-widest text-white transition-colors hover:border-white/60 hover:bg-white/10 md:flex"
           >
             Get in Touch
@@ -111,7 +113,9 @@ export default function App() {
             ))}
 
             <a
-              href="#"
+              href="https://calendly.com/conner-galway/introductory-call-conner?month=2026-06"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
               className="mt-4 flex items-center gap-2 border border-white/30 px-8 py-4 font-inter text-xs uppercase tracking-widest text-white transition-colors hover:border-white/60 hover:bg-white/10"
               style={{
